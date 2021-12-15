@@ -7,4 +7,3 @@ Foi realizada a estilização de um Layout de uma plataforma de streaming, utili
 para deixar o site responsivo. 
 
 
-# projeto-kenzieflix
