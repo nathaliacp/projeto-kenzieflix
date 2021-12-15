@@ -1,0 +1,95 @@
+/*BODY*/
+body{
+	background-color: #00002E;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;;
+	color: #fff;
+	box-sizing: border-box;
+}
+
+/*TOPO*/
+header.topo{
+	display: flex;
+	justify-content: center;
+}
+
+/*RODAPÉ*/
+footer{
+	display: flex;
+	justify-content: center;
+}
+button{
+	background-color: #00002E;
+	border: 2px solid #fff;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 40px;
+	height: 70px;
+    width: 250px;
+}
+
+/*PÁGINA INICIAL*/
+div.pg-home{
+	display: flex;
+	justify-content: center;
+}
+
+header h2{
+	display: flex;
+	justify-content: center;
+	font-size: 35px;
+}
+
+ul.lista--usuarios{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.box--usuario img{
+	width: 186px;
+}
+
+li.box--usuario{
+	list-style: none;
+}
+
+h3{
+	display: flex;
+	justify-content: center;
+}
+
+figcaption{
+	display: none;
+}
+
+@media screen and (min-width: 1080px){
+	header h2{
+		display: flex;
+		justify-content: center;
+		font-size: 50px;
+	}
+
+	header.topo{
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.box--usuario img:hover{
+		cursor: pointer;
+		border: 2px solid #fff;
+	}
+
+	.addPerfil img:hover{
+		border: none;
+	}
+
+	ul.lista--usuarios{
+		display: flex;
+		flex-wrap: nowrap;
+		width: 858px;
+	}
+
+}
+
